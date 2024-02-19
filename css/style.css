@@ -1,0 +1,86 @@
+/*Primer paso para trabajar con css; es hacer la referencia, xq si no le indico al html que 
+voy a utiliar un archivo css, no voy a ver ningun cambio.
+-- La referencias para archivos externos van en el head del html*/
+
+/*cambiarle el color al body*/
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: rgb(27, 221, 221);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tec{
+    color: rgb(133, 20, 43);
+}
+
+#civil{
+    color: rgb(102, 54, 19);
+}
+
+h2{
+    font-size: 45px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;/*para centrar, poner a la derecha, izquierda.*/
+    font-style: italic;/*ponerle cursiva a la letra*/
+    font-weight: bold;/*para poner negrita*/ 
+}
+
+p{
+    color: rgb(4, 2, 7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;/*para centrar, poner a la derecha, izquierda.*/
+    font-style: italic;/*ponerle cursiva a la letra*/
+    font-weight: bold;/*para poner negrita*/ 
+}
+
+ul{
+    list-style: none;
+}
+
+li{/* si tengo mas listas deberias almacenarlas en clases*/
+    border: 1px solid;
+    width: 15%; /*cuando se trabaje con anchuras preferible trabajar con %*/
+    background-color: aliceblue;
+    padding: 5px; /*espaciado en tablas.*/
+    font-size:15px;/*tamaño de letra*/
+    font-weight: bold; /*negrita*/  
+} 
+
+img{
+    width: 100px;
+    height: auto;/*se escala la imagen cuando se le pone auto*/
+    display: block;
+    margin: auto;
+}
+
+.cabezera{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+
+}
+#logo {
+    float: left;
+    width: 25%;
+}
+
+#titulo{
+    float: left;
+    width: 50%;
+}
+
+.contenedor{
+    padding: 30px;
+}
+
+#icon{
+    width: 100px;
+    height: auto;/*se escala la imagen cuando se le pone auto*/
+    display: block;
+    margin: auto;
+}
